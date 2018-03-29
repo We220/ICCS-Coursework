@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Approach}{1}
+\contentsline {section}{\numberline {3}Results}{1}
+\contentsline {section}{\numberline {4}Discussion}{2}
+\contentsline {section}{\numberline {5}Conclusion}{2}
+\contentsline {section}{Appendices}{3}
+\contentsline {section}{\numberline {A}Average time graph}{3}
+\contentsline {section}{\numberline {B}Average bumps graph}{4}
+\contentsline {section}{\numberline {C}Robot Picture}{4}

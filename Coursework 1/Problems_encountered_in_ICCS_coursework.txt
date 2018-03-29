@@ -1,0 +1,27 @@
+Problems encountered
+	1st iteration of development
+		Only used one reading from sonar 
+		If the robot hit an open ended wall it wouldn't turn sharply enough to navigate around the object and come back on course
+	2nd iteration of development
+		Used just one reading from the ultrasound which caused the robot to over compensate or under compensate
+
+	3rd iteration of development
+		Sonar noisy and occasionally over compensates or under compensates
+			Solution to take an average of previous readings to inform the correction
+		What happens when the robot hits an open ended wall or an object that juts out far from the navigating wall
+			Solution needs to turn more over time when it reaches the end of the object so that it goes all the way around it
+
+	Fine tuning turning when backing up and going around open corners that aren't 180 degrees
+		Solution for backing up is to check if there were a sequence of bumps in a certain amount of time if so backup more and more
+
+
+If the robot turns towards the wall the ultrasonic sensor gets further away from the wall the steeper you turn
+	PID loop
+
+
+When getting too close to a wall sonar reads 255 which indicates the max distance of the sensor. How can you tell that the robot is too close to the wall or going round an open corner where the next wall is greater than the max distance of the sensor
+
+
+What happens when there is a hole in the bottom of an object that the robot is heading towards straight on
+	Solution have lego that sticks up to the height of the robot
+		If there are objects that the robot can go under it know still can
